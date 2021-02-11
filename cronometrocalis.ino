@@ -7,7 +7,7 @@ unsigned char horas = 0;
 void timer1s()
 {
   
-  if(segundos == 59)
+  if(segundos ==60)
  {
   segundos = 0;
   minutos++;
@@ -15,7 +15,7 @@ void timer1s()
   else 
   segundos++;
  
- if(minutos == 59)
+ if(minutos == 60)
  horas++;
  else 
  horas=horas;
